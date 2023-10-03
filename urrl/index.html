@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>URL</title>
+</head>
+<body>
+    <div class="main">
+        <h1 id="center">URL Shortener and Expander</h1>
+        <label for="urlInput" id="urltext">Enter a Long URL:</label>
+        <input type="text" id="urlInput" placeholder="Enter the URL">
+        <button onclick="shortenURL()" id="shortbutton">Shorten</button>
+
+        <p id="shortURL"></p>
+
+        <label for="shortURLInput" id="shorturltext">Enter a Short URL:</label>
+        <input type="text" id="shortURLInput" placeholder="Short URL">
+        <button onclick="expandURL()" id="expandbutton">Expand</button>
+
+        <p id="expandedURL"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

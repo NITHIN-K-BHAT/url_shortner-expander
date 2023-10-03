@@ -1,0 +1,70 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background-color: rgb(241, 162, 252);
+}
+
+.main{
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%,24%);
+    position: relative;
+    border: 2px solid black;
+}
+
+#urlInput{
+    position: relative;
+    top: 37%;
+    left: 14%;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding-left: 56px;
+    padding-top: 8px;
+}
+#urltext{
+    position: relative;
+    top: 37%;
+    left: 13%;
+    /* border: 2px solid black;
+    border-radius: 24px;
+    padding-left: 56px;
+    padding-top: 8px; */
+}
+
+#shortURLInput {
+    position: relative;
+    top: 43%;
+    left: 13%;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding-left: 56px;
+    padding-top: 8px;
+}
+
+#shorturltext{
+    position: relative;
+    top: 43%;
+    left: 13%;
+}
+#shortbutton{
+    position: relative;
+    top: 36%;
+    left:16%;
+}
+
+#expandbutton{
+    position: relative;
+    top: 43%;
+    left: 16%;
+}
+#center{
+    padding-left: 43px;
+    padding-top: 31px;
+    color: red;
+}
